@@ -10,13 +10,13 @@
  */
 int main(void)
 {
-	int n;
+	int n, ld;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
 	/* Find the last digit with modulus */
-	int ld = n % 10;
+	ld = n % 10;
 
 	if (ld == 0)
 	{
