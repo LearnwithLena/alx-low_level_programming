@@ -8,9 +8,13 @@
  */
 int main(void)
 {
-	for (int x = 'A'; x <= 'Z'; x++)
+	char alphabets[26] = "abcdefghijklmnopqrstuvwxyz";
+	int i;
+
+	for (i = 0; i < 26; x++)
 	{
-		putchar(tolower(x));
+		putchar(alphabets[i]);
 	}
+	putchar("\n");
 	return (0);
 }
