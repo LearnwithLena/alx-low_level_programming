@@ -8,22 +8,19 @@
 
 int main(void)
 {
-	char alpha[26] = "abcdefghijklmnopqrstuvwxyz";
-	int i;
+	char alpha = 'a';
 
 	/* Print lower case alphabets */
-
-	for (i = 0; i < 26; i++)
+	while (alpha <= 'z')
 	{
+		if (alpha != 'q' && alpha != 'e')
 		/* Checks if the letter is q or e */
-		if ((putchar(alpha[i]) != 'q') && (putchar(alpha[i]) != 'e' ))
 		{
-			putchar(alpha[i]);
+			putchar(alpha);
 		}
-		
-		/* Print new line */
-		putchar('\n');
+		alpha++;
 	}
+	putchar('/n');
 
 	return (0);
 }
