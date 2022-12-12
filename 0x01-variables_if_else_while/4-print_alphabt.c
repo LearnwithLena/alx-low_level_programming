@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	char alpa[26] = "abcdefghijklmnopqrstuvwxyz";
+	char alpha[26] = "abcdefghijklmnopqrstuvwxyz";
 	int i;
 
 	/* Print lower case alphabets */
@@ -24,4 +24,6 @@ int main(void)
 		/* Print new line */
 		putchar('\n');
 	}
+
+	return (0);
 }
