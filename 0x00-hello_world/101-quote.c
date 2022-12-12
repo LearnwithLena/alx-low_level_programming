@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-	int i = 0
+	int i = 0;
 	char sentence[33] = "and that piece of art is useful\" ";
 	char authour[25] = "- Dora Korpar, 2015-10-19";
 
