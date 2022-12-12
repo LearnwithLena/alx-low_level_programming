@@ -15,17 +15,17 @@ int main(void)
 
 	for (tens1 = '0'; tens1 <= '9'; tens1++)
 	{
-		for (units1 = tens1 + 1; units1 <= '9'; units1++)
+		for (unit1 = tens1 + 1; unit1 <= '9'; unit1++)
 		{
 			for (tens2 = '0'; tens2 <= '9'; tens2++)
 			{
-				for (units2 = tens2 + 1; units2 <= '9'; units2++)
+				for (unit2 = tens2 + 1; unit2 <= '9'; units2++)
 				{
 					putchar(tens1);
-					putchar(units1);
+					putchar(unit1);
 					putchar(' ');
 					putchar(tens2);
-					putchar(units2);
+					putchar(unit2);
 
 					if (!((tens1 == '9' && units1 == '8') && (tens2 == '9' && units2 == '9')))
 					{
