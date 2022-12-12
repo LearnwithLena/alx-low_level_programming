@@ -19,7 +19,7 @@ int main(void)
 		{
 			for (tens2 = '0'; tens2 <= '9'; tens2++)
 			{
-				for (unit2 = tens2 + 1; unit2 <= '9'; unit2++)
+				for (unit2 = unit1 + 1; unit2 <= '9'; unit2++)
 				{
 					putchar(tens1);
 					putchar(unit1);
@@ -33,6 +33,7 @@ int main(void)
 						putchar(' ');
 					}
 				}
+				unit2 = '0';
 			}
 		}
 	}
