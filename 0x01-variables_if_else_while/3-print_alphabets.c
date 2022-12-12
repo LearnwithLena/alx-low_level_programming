@@ -16,7 +16,7 @@ int main(void)
 	{
 		putchar(l_alphabets[i]);
 	}
-	
+
 	/* Prints upper case */
 	for (i = 0; i < 26; i++)
 	{
