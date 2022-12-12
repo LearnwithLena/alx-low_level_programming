@@ -16,7 +16,7 @@ int main(void)
 	{
 		putchar(num);
 	}
-	
+
 	/*
 	 * While (num <= '9')
 	 * {
