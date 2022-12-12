@@ -15,7 +15,7 @@ int main(void)
 	{
 		for (tens = hund + 1; tens <= '9'; tens++)
 		{
-			for (unit = hund + 2; unit <= '9'; unit++)
+			for (unit = tens + 1; unit <= '9'; unit++)
 			{
 				putchar(hund);
 				putchar(tens);
