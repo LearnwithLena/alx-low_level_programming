@@ -12,7 +12,7 @@ int main(void)
 	char sentence[33] = "and that piece of art is useful\" ";
 	char authour[25] = "- Dora Korpar, 2015-10-19";
 
-	for (i = 0; i <= 33; i++)
+	for (i = 0; i < 33; i++)
 	{
 		putchar(sentence[i]);
 	}
