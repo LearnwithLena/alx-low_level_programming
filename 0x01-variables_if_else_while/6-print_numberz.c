@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/** 
+/**
  * main - Prints numbers less than ten
  *
  * Return: Always 0 (Success)
@@ -16,6 +16,6 @@ int main(void)
 		i++;
 	}
 	putchar('\n');
-	
+
 	return (0);
 }
