@@ -3,7 +3,7 @@
 /**
  * main - Print a sentence without printf or puts
  *
- * Return: Always 0 (Success)
+ * Return: Always 1 (Success)
  *
  */
 int main(void)
@@ -20,6 +20,8 @@ int main(void)
 	{
 		putchar(authour[i]);
 	}
+
 	putchar('\n');
-	return (0);
+
+	return (1);
 }
