@@ -16,7 +16,7 @@ int main(void)
 	{
 		putchar(sentence[i]);
 	}
-	for (i = 0; i <= 25; i++)
+	for (i = 0; i < 25; i++)
 	{
 		putchar(authour[i]);
 	}
