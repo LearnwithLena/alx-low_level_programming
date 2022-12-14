@@ -10,8 +10,6 @@
 
 int _islower(int c)
 {
-	char c;
-	
 	/* Checks if character is lowercase */
 	return (islower(c));
 }
