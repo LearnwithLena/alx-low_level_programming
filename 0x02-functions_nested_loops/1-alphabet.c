@@ -1,12 +1,15 @@
 #include "main.h"
 
 /**
- * Print lowercase letters
+ * print_alphabet - print lowercase letters
  *
- * Return: Always 0.
+ * Return: Always 0
  */
-void print_alphabet(void) {
-	int alpha = 'a';
+
+void print_alphabet(void)
+{
+	/* Prints lower case alphabets */
+	char alpha = 'a';
 
 	while (alpha <= 'z')
 	{
