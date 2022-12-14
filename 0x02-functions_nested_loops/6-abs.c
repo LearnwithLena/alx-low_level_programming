@@ -14,5 +14,4 @@ int _abs(int num)
 
 	new = abs(num);
 	printf("%d\n", new);
-	return (0);
 }
