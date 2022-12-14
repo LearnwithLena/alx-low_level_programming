@@ -8,6 +8,8 @@
 
 int print_last_digit(int num)
 {
+	int last_digit; /* Declaration for the last digit*/
+
 	last_digit = num / 10;
 	return (last_digit);
 }
