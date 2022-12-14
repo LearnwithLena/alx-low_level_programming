@@ -38,4 +38,4 @@ int print_sign(int n);
 /**
  * Converts a number to the absolute value
  */
-int _abs(int);
+int _abs(int num);

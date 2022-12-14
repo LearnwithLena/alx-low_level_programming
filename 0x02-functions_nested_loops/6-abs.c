@@ -5,13 +5,13 @@
 /**
  * _abs - Changes a number to an absolute value
  * Return: 0 success
+ * @num: Number to be checked
  */
 
-int _abs(int)
+int _abs(int num)
 {
-	int n; /* @n: Number to be checked */
 	
-	n = abs(n);
-	putchar(n);
+	new = abs(num);
+	printf("%d\n", new);
 	return (0);
 }
