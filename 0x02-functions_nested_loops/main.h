@@ -46,3 +46,8 @@ int _abs(int num);
  */
 int print_last_digit(int num);
 
+/**
+ * Prints all the minute in a day starting with 00:00 to 23:59
+ */
+void jack_bauer(void);
+
