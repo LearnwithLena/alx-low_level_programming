@@ -55,3 +55,9 @@ void jack_bauer(void);
  * Prints 9 times table with , and spaces and new lines after each level
  */
 void times_table(void);
+
+/**
+ * Prints the sum of two numbers
+ */
+int add(int a, int b);
+
