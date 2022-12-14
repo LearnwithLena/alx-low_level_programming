@@ -5,19 +5,38 @@
 
 void times_table(void)
 {
-	int column;
 	int row;
+	int column;
 	int product;
 
-	for (column = 0; column <= 9; column++)
+	for (row = 0; row <= 9; row++)
 	{
-		for (row = 0; row <= 9; row++)
+		for (column = 0; column <= 9; column++)
 		{
 			product = row * column;
-			putchar(product + '0');
-			putchar(',');
-			putchar(' ');
+
+			if (column == 0)
+			{
+				_putchar('0' + product);
+			}
+			else if (product <= 9)
+			{
+
+				_putchar(',');
+				_putchar(' ');
+				_putchar(' ');
+				_putchar('0' + product);
+			}
+			else if (product > 9)
+			{
+				_putchar(',');
+				_putchar(' ');
+				_putchar('0' + (product / 10));
+				/* Prints the first digit-  */
+				_putchar('0' + (product % 10));
+				/* Prints the last digit*/
+			}
 		}
-		putchar('\n');
+		_putchar('\n');
 	}
 }
