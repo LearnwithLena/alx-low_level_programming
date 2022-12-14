@@ -39,3 +39,10 @@ int print_sign(int n);
  * Converts a number to the absolute value
  */
 int _abs(int num);
+
+/**
+ * Prints the last digit of a number by finding the modulsus by 10
+ * Returns the last digit
+ */
+int print_last_digit(int num);
+
