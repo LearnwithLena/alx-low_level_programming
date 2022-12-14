@@ -11,7 +11,7 @@ int main(void)
 {
 	int i = 0;
 	char sentence [] = "_putchar";
-	while (i < strlen(sentence))
+	while (i < 8)
 	{
 		putchar(sentence[i]);
 		i++;
