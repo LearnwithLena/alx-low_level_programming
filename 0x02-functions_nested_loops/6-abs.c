@@ -13,5 +13,5 @@ int _abs(int num)
 	int new; /* Absolute number */
 
 	new = abs(num);
-	printf("%d\n", new);
+	return ("%d\n", new);
 }
