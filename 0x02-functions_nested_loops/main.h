@@ -51,3 +51,7 @@ int print_last_digit(int num);
  */
 void jack_bauer(void);
 
+/**
+ * Prints 9 times table with , and spaces and new lines after each level
+ */
+void times_table(void);
