@@ -29,4 +29,5 @@ int add(int a, int b)
 		_putchar('0' + sum);
 	}
 	_putchar('\n');
+	return 0;
 }
