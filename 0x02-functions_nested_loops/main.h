@@ -28,3 +28,9 @@ int _islower(int c);
  * Checks if a character is an alphabet
  */
 int _isalpha(int c);
+
+/**
+ * Chekcs if a number is greater, equal or less than zero
+ * Prints +, 0, - respectively
+ */
+int print_sign(int n);
