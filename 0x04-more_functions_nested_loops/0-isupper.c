@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <ctype.h>
 /**
  * _isupper - Prints if the character is uppercase
  * @c: The character
@@ -8,7 +8,7 @@
 
 int _isupper(int c)
 {
-	if (isupper(c))
+	if (isupper(c)) /* If character is upper */
 	{
 		return (1);
 	}
