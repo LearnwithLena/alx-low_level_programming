@@ -63,3 +63,8 @@ int add(int a, int b);
 
 /* Prints to 98 */
 void print_to_98(int n);
+
+/**
+ * Print times table to 15
+ */
+void print_times_table(int n);
