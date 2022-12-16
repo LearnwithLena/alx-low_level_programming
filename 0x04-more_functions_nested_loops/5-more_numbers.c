@@ -18,7 +18,7 @@ void more_numbers(void)
 			{
 				_putchar((column / 10) + '0'); /*First digit */
 			}
-				_putchar(column % 10 + '0'); /*Last digit */
+				_putchar((column % 10) + '0'); /*Last digit */
 		}
 		_putchar('\n')
 	}
