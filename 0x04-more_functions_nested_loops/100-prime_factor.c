@@ -9,15 +9,14 @@ int main(void)
 {
 	unsigned long num = 612852475143;
 	unsigned long div = 2;
-
-	while (div < num)
+	for  (div = 2; div <= num; div++
 	{
 		if (num % div == 0)
 		{
-			num /= divisor;
-			div = 2;
+			num /= div;
+			div--;
 		}
-		div++;
+
 	}
 	printf("%lu\n", num);
 	return (0);
