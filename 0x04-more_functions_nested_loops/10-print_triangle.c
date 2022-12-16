@@ -5,7 +5,7 @@
  * @size: sizeof triangle
  * Return: 0 Sucess
  */
- 
+
 void print_triangle(int size)
 {
 	int row;
