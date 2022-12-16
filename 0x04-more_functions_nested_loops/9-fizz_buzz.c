@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdio.h>
-
+#include <stdlib.h>
 /**
  * main - prints numbers 1 to 100, fizz for multiples of three
  * buzz for multiple of 5
