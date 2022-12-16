@@ -10,9 +10,9 @@ void more_numbers(void)
 	int row;
 	int column;
 
-	for (row = 0; row < 11; row++)
+	for (row = 0; row < 10; row++)
 	{
-		for (column = 0; column < 15; column++)
+		for (column = 0; column < 14; column++)
 		{
 			if (column >= 10)
 			{
@@ -20,6 +20,6 @@ void more_numbers(void)
 			}
 			_putchar((column % 10) + '0'); /*Last digit */
 		}
-		_putchar('\n')
+		_putchar('\n');
 	}
 }
