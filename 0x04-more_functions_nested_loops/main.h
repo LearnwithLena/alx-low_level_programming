@@ -22,3 +22,4 @@ void print_square(int size);
 
 void fizzbuzz(void);
 
+void print_diagonal(int n);
