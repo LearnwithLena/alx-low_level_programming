@@ -7,3 +7,5 @@ int _isupper(int c);
 
 /* Checks if digit */
 int _isdigit(int c);
+
+int mul(int a, int b);
