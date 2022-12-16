@@ -1,6 +1,6 @@
 #include "main.h"
-#include <ctype.h>
 #include <stdio.h>
+#include <ctype.h>
 
 /**
  * _isupper - Prints if the character is uppercase
