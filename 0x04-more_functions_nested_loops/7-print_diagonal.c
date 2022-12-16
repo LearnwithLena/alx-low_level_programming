@@ -9,7 +9,6 @@
 void print_diagonal(int n)
 {
 	int row;
-	int column;
 	int space;
 
 	if (n <= 0)
