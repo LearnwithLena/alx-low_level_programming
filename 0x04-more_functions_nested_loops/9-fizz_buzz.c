@@ -2,13 +2,13 @@
 #include <stdio.h>
 
 /**
- * fizzbuzz - prints numbers 1 to 100, fizz for multiples of three
+ * main - prints numbers 1 to 100, fizz for multiples of three
  * buzz for multiple of 5
  * fizzbuzz for multiples of 3 and 5
- * Return: void
+ * Return 0 Success
  */
 
-void fizzbuzz(void)
+int main(void)
 {
 	int i;
 
@@ -32,4 +32,5 @@ void fizzbuzz(void)
 		}
 	}
 	printf("\n");
+	return (0);
 }
