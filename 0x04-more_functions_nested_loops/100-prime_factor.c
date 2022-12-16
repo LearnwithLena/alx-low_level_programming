@@ -7,9 +7,10 @@
 
 int main(void)
 {
-	unsigned long num = 612852475143;
-	unsigned long div = 2;
-	for  (div = 2; div <= num; div++
+	long int num = 612852475143;
+	long int = 2;
+	
+	for (div = 2; div <= num; div++)
 	{
 		if (num % div == 0)
 		{
@@ -18,6 +19,6 @@ int main(void)
 		}
 
 	}
-	printf("%lu\n", num);
+	printf("%ld\n", num);
 	return (0);
 }
