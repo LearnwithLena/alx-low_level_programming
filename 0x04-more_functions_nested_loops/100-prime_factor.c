@@ -17,10 +17,7 @@ int main(void)
 			num /= divisor;
 			div = 2;
 		}
-		else
-		{
-			div++
-		}
+		div++;
 	}
 	printf("%lu\n", num);
 	return (0);
