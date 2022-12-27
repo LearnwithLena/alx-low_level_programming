@@ -8,8 +8,8 @@
 int main(void)
 {
 	long int num = 612852475143;
-	long int = 2;
-	
+	long int div;
+
 	for (div = 2; div <= num; div++)
 	{
 		if (num % div == 0)
