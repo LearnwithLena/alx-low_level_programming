@@ -15,7 +15,6 @@ int main(void)
 		if (num % div == 0)
 		{
 			num /= div;
-			div--;
 		}
 
 	}
