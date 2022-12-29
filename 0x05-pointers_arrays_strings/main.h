@@ -18,4 +18,7 @@ void _puts(char *str);
 void print_rev(char *s);
 
 void reve_string(char *s);
+
+void puts2(char *str);
+
 #endif /*MAIN_H*/
