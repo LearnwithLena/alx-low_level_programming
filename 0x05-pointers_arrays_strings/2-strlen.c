@@ -16,8 +16,8 @@ int _strlen(char *s)
 
 	while (*s != '\0') /* The dereferenced char isnt the empty space */
 	{
-		s++ /* Inreases the pointer address by one */
-		count++ /* Increase the counter by one */
+		s++; /* Inreases the pointer address by one */
+		count++; /* Increase the counter by one */
 	}
 
 	return (count);
