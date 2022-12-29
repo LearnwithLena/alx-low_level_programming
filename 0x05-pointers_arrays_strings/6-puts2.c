@@ -19,8 +19,7 @@ void puts2(char *str)
 	/* Print first number but skip everyt other */
 	for (i = 0; i < len; i = i + 2)
 	{
-
 		_putchar(str[i]); /* Prints the char at that index */
 	}
 	_putchar('\n'); /* Print new line */
-}
+} /* https://iq.opengenus.org/different-ways-to-print-in-c/ */
