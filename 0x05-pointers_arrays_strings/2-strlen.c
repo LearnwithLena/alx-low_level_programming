@@ -10,9 +10,15 @@
 
 int _strlen(char *s)
 {
-	char text[];
+	int count;
 
-	text = *s;
+	count = 0;
 
-	return (strlen(text));
+	while (*s != '\0') /* The dereferenced char isnt the empty space */
+	{
+		s++ /* Inreases the pointer address by one */
+		count++ /* Increase the counter by one */
+	}
+
+	return (count);
 }
