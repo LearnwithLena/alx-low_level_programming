@@ -20,6 +20,7 @@ void puts2(char *str)
 	for (i = 0; i < len; i = i + 2)
 	{
 
-		puts(str);
+		_putchar(str[i]); /* Prints the char at that index */
 	}
+	_putchar('\n'); /* Print new line */
 }
