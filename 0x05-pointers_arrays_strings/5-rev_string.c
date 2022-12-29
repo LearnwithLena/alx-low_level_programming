@@ -23,7 +23,7 @@ void rev_string(char *s)
 
 
 	/* Swap characters */
-	for (i = 0; i < (len - 1) / 2; i++)
+	for (i = 0; i < (len) / 2; i++)
 	{
 		temp = *end;
 		*end = *start;
@@ -32,6 +32,5 @@ void rev_string(char *s)
 		/* Update pointer position */
 		start++;
 		end--;
-
 	}
 }
