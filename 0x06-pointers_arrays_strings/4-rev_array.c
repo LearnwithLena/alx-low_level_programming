@@ -15,9 +15,22 @@
 void reverse_array(int *a, int n);
 {
 	int i;
+	int *start, *end, temp; /* declare pointers to begin, endand temp */
 
-	for (i = n - 1; i >= 0; i--)
+	/* Set the start. */
+	start = a;
+
+	/* Set the end using pointer arithemtic. End is n-1 */
+	end = a + (n - 1);
+
+	/* Swap characters */
+	for (i = 0; i < n / 2; i++)
 	{
-		_putchar(a[i]);
+		temp = *end; /* Assign end to temp */
+		*end = *start; /* Assign start of arra to end */
+		*start = temp; /* Assign temp to deference start */
+		/* Update pointer position. Move start forward and end back */
+		start++;
+		end--;
 	}
 }
