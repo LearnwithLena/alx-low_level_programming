@@ -12,7 +12,7 @@
  * Return: concatenated string
  */
 
-char *_strcat(chat *dest, char *src)
+char *_strcat(char *dest, char *src)
 {
-	return (strcat(*dest, *src));
+	return (strcat(dest, src));
 }
