@@ -12,7 +12,7 @@
  * Return: none
  */
 
-void reverse_array(int *a, int n);
+void reverse_array(int *a, int n)
 {
 	int i;
 	int *start, *end, temp; /* declare pointers to begin, endand temp */
