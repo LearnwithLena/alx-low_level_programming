@@ -14,5 +14,5 @@
 
 char *_strcat(chat *dest, char *src)
 {
-	return (strcat(dest, src));
+	return (strcat(*dest, *src));
 }
