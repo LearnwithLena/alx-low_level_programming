@@ -11,12 +11,12 @@
 
 void print_chessboard(char (*a)[8])
 {
-	int i;
-	int j = 0;
+	unsigned int i;
+	unsigned int j = 0;
 
 	for (i = 0; i < 64; i++)
 	{
-		if (i % 8 == 0 &&  i != 0)
+		if (i % 8 == 0 && i != 0)
 		{
 			j = i;
 			_putchar('\n');
