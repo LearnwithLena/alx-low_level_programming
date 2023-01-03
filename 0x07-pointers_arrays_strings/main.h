@@ -1,4 +1,5 @@
-#include <stdio.h>
+#ifndef MAIN_H
+#define MAIN_H
 
 /**
  * Header files for 0x07 tasks
@@ -22,3 +23,4 @@ void print_chessboard(char (*a)[8]);
 
 void print_diagsums(int *a, int size);
 
+#endif /*MAIN_H*/
