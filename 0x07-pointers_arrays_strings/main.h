@@ -1,5 +1,4 @@
-#ifndef _MAIN_H_
-#define _MAIN_H_
+#include <stdio.h>
 
 /**
  * Header files for 0x07 tasks
@@ -21,6 +20,4 @@ char *_strstr(char *haystack, char *needle);
 
 void print_chessboard(char (*a)[8]);
 
-void print_diagsums(int *a, int size);
-
-#endif /*MAIN_H*/
+void print_diagsums(int *a, int size)
