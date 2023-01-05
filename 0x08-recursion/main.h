@@ -22,6 +22,8 @@ int sqrt_find(int n, int sqr);
 
 int _sqrt_recursion(int n);
 
+int is_prime(int n, int div);
+
 int is_prime_number(int n);
 
 int _putchar(char c);
