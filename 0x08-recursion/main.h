@@ -26,6 +26,8 @@ int is_prime(int n, int div);
 
 int is_prime_number(int n);
 
+int wildcmp(char *s1, char *s2);
+
 int _putchar(char c);
 
 #endif /* MAIN_H */
