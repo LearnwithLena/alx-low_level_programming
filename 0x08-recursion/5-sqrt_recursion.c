@@ -21,7 +21,7 @@ int sqrt_find(int n, int sqr)
 }
 
 /**
- * _sqrt_recrusion - print natural square root
+ * _sqrt_recursion - print natural square root
  * @n: the given number
  * Return: -1 if not a natural number else the number
  */
