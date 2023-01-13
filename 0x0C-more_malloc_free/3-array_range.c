@@ -1,5 +1,5 @@
 #include <stdlib.h>
-#include <main.h>
+#include "main.h"
 
 /**
  * array_range - Create an array of ints ordered min to max
