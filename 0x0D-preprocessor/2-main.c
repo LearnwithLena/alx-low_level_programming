@@ -5,7 +5,7 @@
  * main - prints the name of the file it was compiled from
  * @argc: Number of command line inputs
  * @argv: Array of inputs
- * Return: int
+ * Return: 0 if success, prints name of file
  *
  */
 
@@ -15,4 +15,5 @@ int main(int argc, char *argv[])
 	{
 		printf("%s\n", argv[0]);
 	}
+	return(0);
 }
