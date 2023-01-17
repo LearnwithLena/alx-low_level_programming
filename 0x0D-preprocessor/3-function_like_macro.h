@@ -7,6 +7,6 @@
  * @x: number to be used
  */
 
-#define ABS(x) ((x < 0) ? (-x) : (x)) /* -x is evaluated to +x */
+#define ABS(x) (((x) < 0) ? (-x) : (x)) /* -x is evaluated to +x */
 
 #endif /* _FUNCTION_LIKE_MACRO_H */
