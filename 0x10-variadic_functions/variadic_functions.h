@@ -7,6 +7,12 @@
  * Desc: contains protoypes of functions 0x10
  */
 
+typedef struct print
+{
+	char *type;
+	void (*func)(va_list arg);
+} print_t;
+
 int _putchar(char);
 
 int sum_them_all(const unsigned int n, ...);
