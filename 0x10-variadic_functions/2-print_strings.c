@@ -4,7 +4,7 @@
 #include <stddef.h>
 
 /**
- * print_strings - prints strings 
+ * print_strings - prints strings
  * @separator: separator of strings
  * @n: number of strings passed
  * Return: void
