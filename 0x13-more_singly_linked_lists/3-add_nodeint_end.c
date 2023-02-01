@@ -1,4 +1,5 @@
 #include "lists.h"
+listint_t *create_node(const int n);
 
 /**
  * add_nodeint_end - Add node at the end of a listint_t list
